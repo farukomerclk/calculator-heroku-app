@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Projesi</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Projesi</title>
 </head>
+
 <body>
-    <!-- <textarea name="num1" id="num1" cols="5" rows="5" placeholder="sayı giriniz"></textarea>
+  <!-- <textarea name="num1" id="num1" cols="5" rows="5" placeholder="sayı giriniz"></textarea>
     <textarea name="num2" id="num2" cols="5" rows="5" placeholder="sayı giriniz"></textarea>
     <button id="calculateBTN" onclick="calculate(num1, num2)">Calculate</button>
     <textarea name="result" id="result" cols="5" rows="5"></textarea> -->
-<main>
-  <div>
-    
-    <form>
-      <div>
-        <input id="num1">
-      </div>
-      <div>
-        <input id="num2">
-      </div>
-      <div>
-        <button>calculate</button>
-      </div>
-      <br>
-      <div>
-        <output id="result"></output>
-      </div>
-    </form>
-    
-  </div>
-</main>
+  <main>
+    <div>
+      <form>
+        <div class="NumField1">
+          <input id="num1" placeholder="sayı giriniz">
+        </div>
+        <div class="NumField2">
+          <input id="num2" placeholder="sayı giriniz">
+        </div>
+        <div class="CalBtn">
+          <button>calculate</button>
+        </div>
+        <div class="resultField">
+          <input type="text" id="result" name="result">	
+        </div>
+      </form>
+    </div>
+  </main>
 </body>
 <script>
-    function calculate(num1,  num2){
-      console.log("111");
-        var result = num1 + num2;
-        console.log(result);
-    }
+  function calculate(num1, num2) {
+    console.log("111");
+    var result = num1 + num2;
+    console.log(result);
+  }
 </script>
 <script src="main.js"></script>
+
 </html>
 
 <!-- <!DOCTYPE html>
