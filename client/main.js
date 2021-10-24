@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e) {
   var result = document.querySelector('#result');
 
 
-  result.value = num1.value + num2.value;
+  result.value = +num1.value + +num2.value;
   
   num1.value = '';
   num2.value = '';
