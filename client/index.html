@@ -7,14 +7,15 @@
     <title>Calculator Projesi</title>
 </head>
 <body>
-    <textarea name="num1" id="num1" cols="30" rows="10" placeholder="sayı giriniz"></textarea>
-    <textarea name="num2" id="num2" cols="30" rows="10" placeholder="sayı giriniz"></textarea>
+    <textarea name="num1" id="num1" cols="5" rows="5" placeholder="sayı giriniz"></textarea>
+    <textarea name="num2" id="num2" cols="5" rows="5" placeholder="sayı giriniz"></textarea>
     <button id="calculateBTN" onclick="calculate(num1, num2)">Calculate</button>
-    <textarea name="result" id="result" cols="30" rows="10">{{result}}</textarea>
+    <textarea name="result" id="result" cols="5" rows="5"></textarea>
 </body>
 <script>
     function calculate(num1,  num2){
-        var result = nuym1 + num2;
+        var result = num1 + num2;
+        console.log(result);
     }
 </script>
 </html>
