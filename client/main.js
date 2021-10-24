@@ -8,6 +8,13 @@ form.addEventListener('submit', function(e) {
   var result = document.querySelector('#result');
   
 
+  console.log(num1);
+  console.log(num2);
+  console.log(num1.value);
+  console.log(num2.value);
+  console.log(result);
+  console.log(result.value);
+
   result = num1.value + num2.value;
   
   num1.value = '';
